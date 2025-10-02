@@ -1,17 +1,18 @@
-# Telegram 文件上传机器人
+# 🤖 Telegram 文件上传机器人
 
-一个功能强大的 Telegram 机器人，用于接收用户上传的文件并自动转发到指定群组。
+一个功能强大的 Telegram 机器人，支持话题模式、自动话题检测、文件转发等功能。
 
-## 功能特性
+## ✨ 核心特性
 
-- 📁 **多文件类型支持**：支持文档、图片、视频、音频、语音等文件类型
-- 🏷️ **智能标题提取**：自动提取文件名或使用用户提供的描述作为标题
-- 🔄 **自动转发**：将文件连同标题信息转发到指定群组
-- 🧵 **话题模式支持**：支持群组话题模式，可指定特定话题
-- 👥 **用户权限控制**：支持限制允许使用的用户列表
-- 📊 **文件大小限制**：可配置最大文件大小限制
-- 📝 **详细日志记录**：完整的操作日志和错误追踪
-- ⚙️ **灵活配置**：通过环境变量进行配置管理
+- 📁 **多文件类型支持**：支持文档、图片、视频、音频、语音等
+- 🧵 **话题模式支持**：支持Telegram群组话题功能
+- 🔍 **自动话题检测**：自动检测群组中的话题
+- 🎯 **话题选择**：使用 `/select ID` 选择话题
+- 📊 **话题查询**：使用 `/topics` 查看话题信息
+- 🔄 **文件转发**：自动转发文件到选定话题
+- 🌐 **网络稳定**：超稳定版解决所有网络问题
+- 🐳 **Docker支持**：完整的Docker化部署
+- 🚀 **自动构建**：GitHub Actions自动构建镜像
 
 ## 安装部署
 
@@ -23,7 +24,7 @@
 ### 2. 安装依赖
 
 ```bash
-pip install -r requirements.txt
+pip install python-telegram-bot==20.7 python-dotenv==1.0.0 loguru==0.7.2 nest-asyncio==1.5.8
 ```
 
 ### 3. 配置设置
@@ -86,14 +87,14 @@ export TARGET_GROUP_ID="your_target_group_id_here"
 
 ### 5. 运行机器人
 
-#### 方法一：使用启动脚本（推荐）
+#### 方法一：使用超稳定版（推荐）
 ```bash
-python run.py
+python start_ultra_stable.py
 ```
 
-#### 方法二：直接运行
+#### 方法二：使用简单版
 ```bash
-python bot.py
+python start_simple_robust.py
 ```
 
 ## 使用方法
@@ -102,10 +103,10 @@ python bot.py
 
 1. **开始使用**：发送 `/start` 开始使用机器人
 2. **上传文件**：直接发送任何支持的文件类型
-3. **添加描述**：在发送文件时添加文字描述，机器人会将其作为标题
-4. **查看帮助**：发送 `/help` 查看帮助信息
+3. **查看话题**：发送 `/topics` 查看可用话题
+4. **选择话题**：发送 `/select ID` 选择话题ID
 5. **查看状态**：发送 `/status` 查看机器人状态
-6. **话题配置**：发送 `/topics` 获取话题配置帮助
+6. **查看帮助**：发送 `/help` 查看帮助信息
 
 ### 支持的文件类型
 
@@ -186,15 +187,20 @@ python bot.py
 
 ```
 Telegram-uploads/
-├── bot.py              # 主机器人文件
-├── config.py           # 配置管理
-├── file_processor.py   # 文件处理模块
-├── utils.py            # 工具函数
-├── run.py              # 启动脚本
-├── requirements.txt    # 依赖包列表
-├── .env.example        # 环境变量模板
-├── README.md           # 说明文档
-└── bot.log             # 日志文件（运行时生成）
+├── start_ultra_stable.py    # 超稳定版机器人（推荐）
+├── start_simple_robust.py   # 简单稳定版机器人
+├── config.py               # 配置管理
+├── file_processor.py       # 文件处理模块
+├── utils.py                # 工具函数
+├── improve_topic_names.py  # 话题名称改进工具
+├── test_bot_status.py      # 机器人状态测试
+├── env.example            # 环境变量模板
+├── Dockerfile             # Docker镜像构建文件
+├── docker-compose.yml     # Docker Compose配置
+├── Makefile               # Docker管理命令
+├── README.md              # 说明文档
+├── README-Docker.md       # Docker部署说明
+└── 最终使用总结.md         # 功能总结
 ```
 
 ### 扩展功能

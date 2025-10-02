@@ -13,9 +13,12 @@ RUN apt-get update && apt-get install -y \
     gcc \
     && rm -rf /var/lib/apt/lists/*
 
-# 复制requirements.txt并安装Python依赖
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# 安装Python依赖
+RUN pip install --no-cache-dir \
+    python-telegram-bot==20.7 \
+    python-dotenv==1.0.0 \
+    loguru==0.7.2 \
+    nest-asyncio==1.5.8
 
 # 复制应用程序代码
 COPY . .

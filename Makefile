@@ -71,7 +71,7 @@ restore:
 # 安装依赖
 install:
 	@echo "安装Python依赖..."
-	pip install -r requirements.txt
+	pip install python-telegram-bot==20.7 python-dotenv==1.0.0 loguru==0.7.2 nest-asyncio==1.5.8
 
 # 本地测试
 local-test:
