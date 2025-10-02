@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: telegram-file-upload-bot-dev
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # 映射源代码（开发模式）
+      - .:/app
+      # 映射配置文件
+      - ./bot_config.json:/app/bot_config.json
+      - ./detected_topics.json:/app/detected_topics.json
+      # 映射日志文件
+      - ./logs:/app/logs
+      - ./bot.log:/app/bot.log
+    environment:
+      # 开发模式环境变量
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=DEBUG
+    networks:
+      - telegram-bot-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  telegram-bot-network:
+    driver: bridge

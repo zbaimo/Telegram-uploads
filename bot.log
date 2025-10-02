@@ -1,0 +1,208 @@
+2025-10-02 16:52:17 | INFO     | __main__:__init__:26 - 话题ID收集器初始化完成
+2025-10-02 16:52:17 | INFO     | __main__:setup_handlers:66 - 消息处理器设置完成
+2025-10-02 16:52:17 | INFO     | __main__:run:116 - 开始收集话题ID，运行时长: 5 分钟
+2025-10-02 16:52:54 | INFO     | __main__:message_handler:49 - 发现话题ID: 3 - 消息: e...
+2025-10-02 16:55:05 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 16:55:05 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 16:55:05 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 16:55:05 | ERROR    | bot:run:337 - 机器人运行错误: Cannot close a running event loop
+2025-10-02 16:55:05 | ERROR    | bot:main:349 - 程序运行错误: Cannot close a running event loop
+2025-10-02 16:55:54 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 16:56:36 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 16:56:36 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 16:56:36 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 16:57:14 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 16:57:14 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 16:57:14 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 16:59:01 | INFO     | __main__:__init__:26 - 简化版机器人初始化完成
+2025-10-02 16:59:01 | INFO     | __main__:run:190 - 消息处理器设置完成
+2025-10-02 16:59:01 | INFO     | __main__:run:193 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 16:59:01 | ERROR    | __main__:run:202 - 机器人运行错误: Cannot close a running event loop
+2025-10-02 16:59:48 | INFO     | __main__:main:193 - 消息处理器设置完成
+2025-10-02 16:59:48 | INFO     | __main__:main:196 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:00:34 | INFO     | __main__:start_command:50 - 用户 5125574407 开始使用机器人
+2025-10-02 17:01:59 | INFO     | __main__:main:198 - 消息处理器设置完成
+2025-10-02 17:01:59 | INFO     | __main__:main:201 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:03:19 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 17:03:19 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 17:03:19 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:03:24 | INFO     | bot:start_command:73 - 用户 5125574407 (zbaimo) 开始使用机器人
+2025-10-02 17:04:57 | INFO     | __main__:main:200 - 消息处理器设置完成
+2025-10-02 17:04:57 | INFO     | __main__:main:203 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:05:41 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 17:05:41 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 17:05:41 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:06:22 | INFO     | file_processor:process_file:69 - 文件处理成功: Yoonying-(Personal-L.K-shop).mp3 (audio)
+2025-10-02 17:06:22 | INFO     | __main__:forward_to_group:123 - 使用话题模式，话题ID: 3
+2025-10-02 17:06:22 | INFO     | __main__:forward_to_group:139 - 文件已转发到群组 -1003116625254
+2025-10-02 17:06:23 | INFO     | __main__:handle_file_upload:97 - 成功处理音频: Yoonying-(Personal-L.K-shop)
+2025-10-02 17:07:51 | INFO     | __main__:main:200 - 消息处理器设置完成
+2025-10-02 17:07:51 | INFO     | __main__:main:203 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:08:17 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 17:08:17 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 17:08:17 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:08:36 | INFO     | file_processor:process_file:69 - 文件处理成功: Yoonying-(Personal-L.K-shop).mp3 (audio)
+2025-10-02 17:08:36 | INFO     | __main__:forward_to_group:123 - 使用话题模式，话题ID: 3
+2025-10-02 17:08:36 | INFO     | __main__:forward_to_group:139 - 文件已转发到群组 -1003116625254
+2025-10-02 17:08:37 | INFO     | __main__:handle_file_upload:97 - 成功处理音频: Yoonying-(Personal-L.K-shop)
+2025-10-02 17:14:49 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 17:14:49 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 17:14:49 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:20:08 | INFO     | __main__:main:437 - 消息处理器设置完成
+2025-10-02 17:20:08 | INFO     | __main__:main:440 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:20:56 | INFO     | bot:__init__:37 - Telegram 文件上传机器人初始化完成
+2025-10-02 17:20:56 | INFO     | bot:setup_handlers:321 - 消息处理器设置完成
+2025-10-02 17:20:56 | INFO     | bot:run:333 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:20:57 | INFO     | topic_manager:get_forum_topics:33 - 使用缓存的话题数据，共4个话题
+2025-10-02 17:21:14 | INFO     | topic_manager:get_forum_topics:33 - 使用缓存的话题数据，共4个话题
+2025-10-02 17:23:13 | ERROR    | bot:topics_command:160 - 获取话题信息失败: httpx.ConnectError: 
+2025-10-02 17:23:18 | ERROR    | bot:topics_command:167 - 处理topics命令失败: httpx.ConnectError: 
+2025-10-02 17:26:05 | INFO     | __main__:run_bot_with_retry:211 - 尝试启动机器人 (第 1 次)
+2025-10-02 17:26:06 | INFO     | __main__:run_bot_with_retry:226 - 消息处理器设置完成
+2025-10-02 17:26:06 | INFO     | __main__:run_bot_with_retry:229 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:26:06 | ERROR    | __main__:run_bot_with_retry:238 - 机器人启动失败 (第 1 次): This event loop is already running
+2025-10-02 17:26:06 | INFO     | __main__:run_bot_with_retry:241 - 等待 10 秒后重试...
+2025-10-02 17:26:16 | INFO     | __main__:run_bot_with_retry:211 - 尝试启动机器人 (第 2 次)
+2025-10-02 17:26:16 | INFO     | __main__:run_bot_with_retry:226 - 消息处理器设置完成
+2025-10-02 17:26:16 | INFO     | __main__:run_bot_with_retry:229 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:26:16 | ERROR    | __main__:run_bot_with_retry:238 - 机器人启动失败 (第 2 次): This event loop is already running
+2025-10-02 17:26:16 | INFO     | __main__:run_bot_with_retry:241 - 等待 10 秒后重试...
+2025-10-02 17:26:26 | INFO     | __main__:run_bot_with_retry:211 - 尝试启动机器人 (第 3 次)
+2025-10-02 17:26:26 | INFO     | __main__:run_bot_with_retry:226 - 消息处理器设置完成
+2025-10-02 17:26:26 | INFO     | __main__:run_bot_with_retry:229 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:26:26 | ERROR    | __main__:run_bot_with_retry:238 - 机器人启动失败 (第 3 次): This event loop is already running
+2025-10-02 17:26:26 | INFO     | __main__:run_bot_with_retry:241 - 等待 10 秒后重试...
+2025-10-02 17:26:36 | INFO     | __main__:run_bot_with_retry:211 - 尝试启动机器人 (第 4 次)
+2025-10-02 17:26:36 | INFO     | __main__:run_bot_with_retry:226 - 消息处理器设置完成
+2025-10-02 17:26:36 | INFO     | __main__:run_bot_with_retry:229 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:26:36 | ERROR    | __main__:run_bot_with_retry:238 - 机器人启动失败 (第 4 次): This event loop is already running
+2025-10-02 17:26:36 | INFO     | __main__:run_bot_with_retry:241 - 等待 10 秒后重试...
+2025-10-02 17:26:46 | INFO     | __main__:run_bot_with_retry:211 - 尝试启动机器人 (第 5 次)
+2025-10-02 17:26:46 | INFO     | __main__:run_bot_with_retry:226 - 消息处理器设置完成
+2025-10-02 17:26:46 | INFO     | __main__:run_bot_with_retry:229 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:26:46 | ERROR    | __main__:run_bot_with_retry:238 - 机器人启动失败 (第 5 次): This event loop is already running
+2025-10-02 17:26:46 | ERROR    | __main__:run_bot_with_retry:244 - 达到最大重试次数，机器人启动失败
+2025-10-02 17:26:46 | ERROR    | __main__:main:266 - 程序运行错误: This event loop is already running
+2025-10-02 17:28:23 | INFO     | __main__:main:231 - 消息处理器设置完成
+2025-10-02 17:28:23 | INFO     | __main__:main:234 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:29:15 | INFO     | __main__:main:231 - 消息处理器设置完成
+2025-10-02 17:29:15 | INFO     | __main__:main:234 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:29:20 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:20 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:24 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:24 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:26 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:26 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:31 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:31 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:33 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:33 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:38 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:38 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:41 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:41 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:45 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:45 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:49 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:49 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:55 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:29:55 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:30:02 | ERROR    | __main__:error_handler:191 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:30:02 | WARNING  | __main__:error_handler:200 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:31:03 | INFO     | __main__:main:201 - 消息处理器设置完成
+2025-10-02 17:31:03 | INFO     | __main__:main:204 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:31:50 | INFO     | __main__:main:201 - 消息处理器设置完成
+2025-10-02 17:31:50 | INFO     | __main__:main:204 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:32:18 | INFO     | __main__:start_command:52 - 用户 5125574407 开始使用机器人
+2025-10-02 17:33:09 | INFO     | __main__:start_command:52 - 用户 5125574407 开始使用机器人
+2025-10-02 17:34:57 | INFO     | file_processor:process_file:69 - 文件处理成功: Yoonying-(Personal-L.K-shop).mp3 (audio)
+2025-10-02 17:34:57 | INFO     | __main__:forward_to_group:139 - 文件已转发到群组 -1003116625254
+2025-10-02 17:34:58 | INFO     | __main__:handle_file_upload:100 - 成功处理音频: Yoonying-(Personal-L.K-shop)
+2025-10-02 17:35:57 | ERROR    | __main__:handle_file_upload:105 - 处理文件上传时发生错误: httpx.ConnectError: 
+2025-10-02 17:39:15 | INFO     | __main__:main:263 - 消息处理器设置完成
+2025-10-02 17:39:15 | INFO     | __main__:main:266 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:40:16 | INFO     | __main__:main:263 - 消息处理器设置完成
+2025-10-02 17:40:16 | INFO     | __main__:main:266 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:40:21 | ERROR    | __main__:error_handler:220 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:40:21 | WARNING  | __main__:error_handler:224 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:40:26 | ERROR    | __main__:error_handler:220 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:40:26 | WARNING  | __main__:error_handler:224 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:40:27 | ERROR    | __main__:error_handler:220 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:40:27 | WARNING  | __main__:error_handler:224 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:40:32 | INFO     | __main__:main:270 - 机器人已停止
+2025-10-02 17:40:46 | INFO     | __main__:main:263 - 消息处理器设置完成
+2025-10-02 17:40:46 | INFO     | __main__:main:266 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:41:17 | INFO     | __main__:start_command:78 - 用户 5125574407 开始使用机器人
+2025-10-02 17:42:51 | INFO     | __main__:main:313 - 消息处理器设置完成
+2025-10-02 17:42:51 | INFO     | __main__:main:316 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:42:56 | ERROR    | __main__:main:322 - 程序运行错误: httpx.ConnectError: 
+2025-10-02 17:44:05 | INFO     | __main__:main:313 - 消息处理器设置完成
+2025-10-02 17:44:05 | INFO     | __main__:main:316 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:44:40 | INFO     | __main__:main:313 - 消息处理器设置完成
+2025-10-02 17:44:40 | INFO     | __main__:main:316 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:45:10 | INFO     | __main__:main:313 - 消息处理器设置完成
+2025-10-02 17:45:10 | INFO     | __main__:main:316 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:45:16 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:16 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:18 | INFO     | __main__:start_command:83 - 用户 5125574407 开始使用机器人
+2025-10-02 17:45:21 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:21 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:23 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:23 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:27 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:27 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:27 | WARNING  | __main__:safe_send_message:43 - 发送消息失败 (第 1 次): httpx.ConnectError: 
+2025-10-02 17:45:29 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:29 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:34 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:34 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:36 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:36 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:41 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:41 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:44 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:44 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:48 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:48 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:51 | ERROR    | __main__:error_handler:269 - 更新处理时发生错误: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:45:51 | WARNING  | __main__:error_handler:273 - 机器人实例冲突: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-02 17:46:07 | INFO     | __main__:main:313 - 消息处理器设置完成
+2025-10-02 17:46:07 | INFO     | __main__:main:316 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:46:12 | ERROR    | __main__:main:322 - 程序运行错误: httpx.ConnectError: 
+2025-10-02 17:47:20 | INFO     | __main__:main:252 - 消息处理器设置完成
+2025-10-02 17:47:20 | INFO     | __main__:main:255 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:48:05 | INFO     | __main__:main:252 - 消息处理器设置完成
+2025-10-02 17:48:05 | INFO     | __main__:main:255 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:48:43 | INFO     | __main__:start_command:58 - 用户 5125574407 开始使用机器人
+2025-10-02 17:55:13 | INFO     | __main__:main:297 - 消息处理器设置完成
+2025-10-02 17:55:13 | INFO     | __main__:main:300 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:56:44 | INFO     | __main__:main:297 - 消息处理器设置完成
+2025-10-02 17:56:44 | INFO     | __main__:main:300 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 17:57:55 | INFO     | __main__:handle_text:258 - 检测到话题: 1 (ID: 2)
+2025-10-02 17:57:56 | INFO     | __main__:handle_text:258 - 检测到话题: 1 (ID: 3)
+2025-10-02 17:58:09 | ERROR    | __main__:topics_command:124 - 获取话题信息时发生错误: httpx.ConnectError: 
+2025-10-02 17:58:19 | ERROR    | __main__:topics_command:124 - 获取话题信息时发生错误: httpx.ConnectError: 
+2025-10-02 18:00:29 | INFO     | __main__:main:389 - 消息处理器设置完成
+2025-10-02 18:00:29 | INFO     | __main__:main:392 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 18:02:03 | INFO     | __main__:main:389 - 消息处理器设置完成
+2025-10-02 18:02:03 | INFO     | __main__:main:392 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 18:02:11 | INFO     | __main__:start_command:59 - 用户 5125574407 开始使用机器人
+2025-10-02 18:02:32 | ERROR    | __main__:select_command:215 - 选择话题时发生错误: httpx.ConnectError: 
+2025-10-02 18:02:47 | ERROR    | __main__:select_command:215 - 选择话题时发生错误: httpx.ConnectError: 
+2025-10-02 18:02:58 | INFO     | __main__:select_command:212 - 用户 5125574407 选择话题ID: 2
+2025-10-02 18:03:16 | INFO     | file_processor:process_file:69 - 文件处理成功: Yoonying-(Personal-L.K-shop).mp3 (audio)
+2025-10-02 18:03:16 | INFO     | __main__:forward_to_group:271 - 使用话题模式，话题ID: 2
+2025-10-02 18:03:17 | INFO     | __main__:forward_to_group:287 - 文件已转发到群组 -1003116625254
+2025-10-02 18:03:17 | INFO     | __main__:handle_file_upload:246 - 成功处理音频: Yoonying-(Personal-L.K-shop)
+2025-10-02 18:05:51 | INFO     | __main__:main:405 - 消息处理器设置完成
+2025-10-02 18:05:51 | INFO     | __main__:main:408 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 18:05:56 | ERROR    | __main__:main:414 - 程序运行错误: httpx.ConnectError: 
+2025-10-02 18:06:26 | INFO     | __main__:main:405 - 消息处理器设置完成
+2025-10-02 18:06:26 | INFO     | __main__:main:408 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 18:06:31 | ERROR    | __main__:main:414 - 程序运行错误: Timed out
+2025-10-02 18:09:42 | INFO     | __main__:main:464 - 消息处理器设置完成
+2025-10-02 18:09:42 | INFO     | __main__:main:467 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 18:10:53 | INFO     | __main__:main:464 - 消息处理器设置完成
+2025-10-02 18:10:53 | INFO     | __main__:main:467 - 正在启动 Telegram 文件上传机器人...
+2025-10-02 18:11:04 | INFO     | __main__:start_command:84 - 用户 5125574407 开始使用机器人
+2025-10-02 18:11:50 | INFO     | __main__:select_command:238 - 用户 5125574407 选择话题ID: 3
