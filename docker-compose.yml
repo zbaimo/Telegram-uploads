@@ -11,9 +11,8 @@ services:
       # 映射配置文件
       - ./bot_config.json:/app/bot_config.json
       - ./detected_topics.json:/app/detected_topics.json
-      # 映射日志文件
+      # 映射日志目录
       - ./logs:/app/logs
-      - ./bot.log:/app/bot.log
     environment:
       # 从.env文件读取的环境变量
       - BOT_TOKEN=${BOT_TOKEN}

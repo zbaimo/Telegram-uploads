@@ -26,7 +26,7 @@ def setup_logging():
     
     # 添加文件输出
     logger.add(
-        "bot.log",
+        "logs/bot.log",
         format="{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {name}:{function}:{line} - {message}",
         level="DEBUG",
         rotation="10 MB",
